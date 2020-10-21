@@ -1,0 +1,12 @@
+{
+    "mongodb": {
+        "baseURL": "mongodb://localhost:27017/",
+        "dbName": "url-shortner",
+        "debug": "true",
+        "username": "kranthi",
+        "password": "Test@123",
+        "poolSize": 10,
+        "authSource": "url-shortner",
+        "collectionName": "urls"
+    }
+}

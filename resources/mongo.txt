@@ -1,0 +1,11 @@
+use url-shortner
+
+db.createUser(
+  {
+    user: "kranthi",
+    pwd:  "Test@123",
+    roles: [ { role: "readWrite", db: "url-shortner" } ]
+  }
+)
+
+db.createCollection("urls")
